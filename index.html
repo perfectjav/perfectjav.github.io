@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ford - People Analytics</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="FordIcon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+
+        .h1 {
+            color: white;
+        }
+
+        .pd-parallax{
+            position: relative;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 500px;
+            margin: 0;
+            padding: 0;
+        }
+        .pd-parallax h1{
+            background-color: #0d3fda;
+            text-align: center;
+            color: white;
+            padding:20px;
+        }
+        .pd-parallax .pd-title{
+            padding-top: 150px;
+            width: 400px;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+<body>
+    
+<!--- Navigation BAR-->
+
+<nav class="navbar navbar-expand-lg sticky-top navbar-light" style="background-color: #2d4185; color:white" id='navbartext'>
+    <a class="navbar-brand" href="http://www.ford.com"  target="_blank"> <img src="FordLogo2.png" width="90" height="40" alt="Talabat Icon"  target="_blank"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="d-flex flex-row order-2 order-lg-3" >
+        <ul class="navbar-nav flex-row">
+            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-facebook"></span></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-twitter"></span></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-youtube"></span></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="#"><span class="fa fa-linkedin"></span></a></li>
+        </ul>
+        <!--- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+            <span class="navbar-toggler-icon"></span>
+        </button>--->
+    </div>
+
+    <div class="collapse navbar-collapse" style="color: white" id="navbarSupportedContent" >
+      <ul class="navbar-nav mx-auto text-md-center text-left" id='shadow1'>
+        <li class="nav-item active">
+          <a class="nav-link" style="color: white" href=""><b>Home</b><span class="sr-only">(current)</span></a>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+                <b>Resources</b>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="color: white"  target="_blank" id='shadow1'>   
+              <a class="dropdown-item" href = "https://public.tableau.com/profile/javier8852#!/vizhome/COVID-19HumanResources_16104810600400/COVID-19HRDashboard?publish=yes" target="_blank"><img src="tableau.png" width="30" height="30"  target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;Tableau Dashboard</a>      
+           </div>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white">
+                <b>Contact Me</b>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="color: white"  id='shadow1'>   
+              <a class="dropdown-item" href = "mailto: lic_sanchez@outlook.com" target="_blank"><img src="gmail.png" width="30" height="30" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;Email</a>      
+              <a class="dropdown-item" href = "whatsapp://call?number=5525165129" target="_blank"><img src="wa.png" width="30" height="30" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;Whatsapp</a>   
+              <a class="dropdown-item" href = "https://www.linkedin.com/in/javiersanchezmdeo/" target="_blank"><img src="lk2.png" width="30 target="_blank"" height="30">&nbsp;&nbsp;&nbsp;&nbsp;Linkedin</a> 
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="JS_CV.pdf" target="_blank"><img src="cv.png" width="30" height="30"  target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;Javier Sanchez CV</a>
+            </div>
+        </li>
+      </ul>
+    </div>
+
+
+  </nav>
+
+
+<!---End of Nav Bar-->
+
+
+
+    <div class = 'pd-parallax' data-parallax-image='landing3.png'>
+    </div>
+
+    <div class = 'pd-parallax' data-parallax-image='slide2.jpg'>
+    </div>
+
+    <div class='container pt-3 pb-3'>
+        <img class='card-img-top' src='slide3.jpg'/>
+    </div>
+
+    <div class='container pt-3 pb-3'>
+        <img class='card-img-top' src='slide4.jpg'/>
+    </div>
+
+    <div class='container pt-3 pb-3'>
+        <img class='card-img-top' src='slide5.jpg'/>
+    </div>
+
+    <div class='container pt-3 pb-3'>
+        <img class='card-img-top' src='slide6.jpg'/>
+    </div>
+
+    <div class = 'pd-parallax' data-parallax-image='slide7.jpg'>
+    </div>
+
+    <div class='container pt-3 pb-3'>
+        <img class='card-img-top' src='slide8.jpg'/>
+    </div>
+
+    <div class='container pt-3 pb-3'>
+        <img class='card-img-top' src='slide9.jpg'/>
+    </div>
+
+    <div class = 'pd-parallax' data-parallax-image='slide10.jpg'>
+    </div>
+
+    <div class='container pt-3 pb-3'>
+        <img class='card-img-top' src='slide11.jpg'/>
+    </div>
+
+    <div class='container pt-3 pb-3'>
+        <img class='card-img-top' src='slide12.jpg'/>
+    </div>
+
+    <div class='container pt-3 pb-3'>
+        <img class='card-img-top' src='slide13.jpg'/>
+    </div>
+
+
+
+    <div class = 'pd-parallax' data-parallax-image='blue.png'>
+        <div class="row"></div>
+        <table class="action_table" style='color:transparent'>
+            <tbody>
+                <tr class="header_row">
+                    <td>.</td>
+                </tr>          
+            </tbody>
+        </table>
+        <table class="action_table" style='color:transparent'>
+            <tbody>
+                <tr class="header_row">
+                    <td>.</td>
+                </tr>          
+            </tbody>
+        </table>
+        <div class='pd-title'><h1  style='background-color: #48a8e5' id='shadow1'>Thank you</h1></div>
+    </div>
+    
+    <footer class='text-center pt-4 pb-3' style='background-color: #c6c6c6'>
+        <h3 style="color:black"><b>Javier Sanchez</b></h3>
+    </footer>
+
+    <script>
+        Array.prototype.forEach.call(document.querySelectorAll('.pd-parallax'), function(elem) {
+            elem.style.backgroundImage = 'url('+elem.getAttribute('data-parallax-image')+')';
+        })
+    </script>
+    
+    
+</body>
+</html>
